@@ -4,15 +4,15 @@ With Web Annotator, you can highlight, underline, encircle, and customize text o
 
 # Features:
 
-Annotation Tools: Easily highlight, underline, encircle, and bold text on any webpage.
-Customization Options: Customize highlight colors and styles to suit your preferences.
-Keyboard Shortcuts: Navigate and annotate with ease using predefined keyboard shortcuts.
-Responsive Design: Enjoy a seamless experience across different screen sizes and resolutions.
-Efficient Annotation: Quickly mark important information for later reference or study.
+Annotation Tools: Easily highlight, underline, encircle, and bold text on any webpage. <br/>
+Customization Options: Customize highlight colors and styles to suit your preferences.  <br/>
+Keyboard Shortcuts: Navigate and annotate with ease using predefined keyboard shortcuts.  <br/>
+Responsive Design: Enjoy a seamless experience across different screen sizes and resolutions.  <br/>
+Efficient Annotation: Quickly mark important information for later reference or study.  <br/>
 
 # Usage:
 
-Installation: Add Web Annotator to your Chrome browser from the Chrome Web Store.
-Annotation: Select text on any webpage and use the toolbar to apply your desired annotation.
-Customization: Customize highlight colors and styles using the extension options.
-Keyboard Shortcuts: Navigate and annotate efficiently using predefined keyboard shortcuts.
+Installation: Add Web Annotator to your Chrome browser from the Chrome Web Store.  <br/>
+Annotation: Select text on any webpage and use the toolbar to apply your desired annotation.  <br/>
+Customization: Customize highlight colors and styles using the extension options.  <br/>
+Keyboard Shortcuts: Navigate and annotate efficiently using predefined keyboard shortcuts. <br/>
