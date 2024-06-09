@@ -1,0 +1,66 @@
+{
+  "manifest_version": 3,
+  "name": "Annotate",
+  "version": "1.0",
+  "description": "webpage annotator",
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "action": {
+    "default_title": "web annotator",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["sidePanel", "tabs", "activeTab", "scripting"],
+  "commands": {
+    "textMarker": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "mac": "Command+Shift+1"
+      },
+      "description": "highlight"
+    },
+    "rectangle": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2",
+        "mac": "Command+Shift+2"
+      },
+      "description": "makes a rectangle"
+    },
+    "circle": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3",
+        "mac": "Command+Shift+3"
+      },
+      "description": "makes an oval"
+    },
+    "underline": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+4",
+        "mac": "Command+Shift+4"
+      },
+      "description": "makes an underline"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "node_modules/@webcomponents/custom-elements/custom-elements.min.js",
+        "content-scripts/toolbar.js"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["src/*", "images/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

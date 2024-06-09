@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: inline-flex;
+  gap: 10px;
+  background-color: #f0f0f0; 
+  padding: 10px; 
+  border-radius: 0.5em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.color-box {
+  width: 2em; 
+  height: 2em; 
+  cursor: pointer;
+  border-radius: 0.5em; 
+  position: relative;
+  transition: all 0.1s;
+  border: 2px solid #ffffff72; 
+}
+
+.color-box:hover {
+  border: 2px solid black; 
+  transform: scale(1.5); 
+}
+
+.color-box:active {
+  transform: scale(1);
+}
+
+.colorPicker {
+  position: relative;
+  width: 40px; 
+  height: 40px; 
+  border: none; 
+  border-radius: 0.5em; 
+  padding: 5px;
+  font-size: 18px; 
+}
+</style>
+</head>
+<body>
+    <div class="row">
+        <input type="color" class="color-box colorPicker" name="colorPicker" id="colorPicker">
+        <div class="color-box" style="background-color: #FF69B4" data-color="#FF69B4"></div>
+        <div class="color-box" style="background-color: #3388FF" data-color="#3388FF"></div>
+        <div class="color-box" style="background-color: #33CC33" data-color="#33CC33"></div>
+        <div class="color-box" style="background-color: #FFD700" data-color="#FFD700"></div>
+        <div class="color-box" style="background-color: #660066" data-color="#660066"></div>
+        <div class="color-box" style="background-color: #CCCCCC" data-color="#CCCCCC"></div>
+        <div class="color-box" style="background-color: #990099" data-color="#990099"></div>
+        <div class="color-box" style="background-color: #FFA07A" data-color="#FFA07A"></div>
+        <div class="color-box" style="background-color: #333333" data-color="#333333"></div>
+        <div class="color-box" style="background-color: #666666" data-color="#666666"></div>
+        <div class="color-box" style="background-color: #00CCFF" data-color="#00CCFF"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
